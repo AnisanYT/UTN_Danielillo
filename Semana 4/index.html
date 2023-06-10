@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 4</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#Hipervinculo">Ir a Hipervinculos</a></li>
+        <li><a href="#ordenadas">Ir a Listas ordenadas</a></li>
+        <li><a href="#desordenadas">Ir a Listas desordenadas</a></li>
+      </ul>
+    </nav>
+    <h1>Listas</h1>
+    <a name="ordenadas"></a>
+    <h2>Listas ordenadas</h2>
+    Colores
+    <!-- Existen Types: A a I i 1 -->
+    <ol type="A">
+      <li>Negro</li>
+      <li>Rojo</li>
+      <li>Verde</li>
+      <li>Amarillo</li>
+      <li>Café</li>
+      <li>Morado</li>
+    </ol>
+    <!-- 
+      ol>li*3>a 
+      <ol>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ol> 
+    -->
+    <a name="desordenadas"></a>
+    <h2>Listas desordenadas</h2>
+    <!-- Existen Types: circle, square, disc -->
+    Paginas mas famosas
+    <ul type="circle">
+      <li><a href="">Google</a></li>
+      <li><a href="">Yahoo</a></li>
+      <li><a href="">Facebook</a></li>
+    </ul>
+
+    <h2>Listas de definicion</h2>
+
+    <dl>
+      <dt>SIDA</dt>
+      <dd>Sindrome de inmunicencia ad...</dd>
+      <dt>UTN</dt>
+      <dd>Universidad tecnica nacional</dd>
+    </dl>
+
+    <h2>Mix de listas</h2>
+    <ol type="I">
+      <li>
+        Raza de perro
+        <ul>
+          <li>pastor aleman</li>
+          <li>Chihuahua</li>
+        </ul>
+      </li>
+      <li>
+        Tipos de alien
+        <ul>
+          <li>Gris de pata larga</li>
+          <li>Verde enano</li>
+        </ul>
+      </li>
+      <li>
+        Video juegos de cubos jaja
+        <ul>
+          <li>Mario</li>
+          <li>Celeste</li>
+        </ul>
+      </li>
+    </ol>
+
+    <a name="Hipervinculo"></a>
+    <h1>Hipervinculos</h1>
+    <h2>Interno</h2>
+    <!-- a -->
+    <a
+      href="contacto.html"
+      style="text-decoration: none; color: brown"
+      target="_blank"
+    >
+      Contactenos
+    </a>
+    <h2>Externo</h2>
+    <a href="https://www.lanacion.com" target="_blank">La nacion</a>
+    <br />
+    <a href="https://www.lanacion.com" target="_blank"
+      ><img
+        src="https://th.bing.com/th/id/R.a91c7d1261a1bff515deba925cd182cb?rik=lPMAmfNbovwLzw&riu=http%3a%2f%2fimg.kiosko.net%2f2018%2f04%2f23%2far%2fnacion.750.jpg&ehk=kYbhKq4WkpyQxNA7PVcJOXMaXIBJ4iJHCdMF83Owh78%3d&risl=&pid=ImgRaw&r=0"
+        alt="Imagen de la nacion"
+        width="100px"
+        height="200px"
+    /></a>
+    <h3>Anclas</h3>
+    <h2>VIDEO</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/u45G7newmfI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h1>Tablas</h1>
+    <table border="1px" width="300px" height="100px" bgcolor="#F9FFCB">
+      <caption>
+        tabla regular
+      </caption>
+      <tr bgcolor="#FFF49C">
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+      </tr>
+      <tr>
+        <td>R1 C1</td>
+        <td>R1 C2</td>
+      </tr>
+      <tr>
+        <td>R2 C1</td>
+        <td>R2 C2</td>
+      </tr>
+      <tr>
+        <td>R3 C1</td>
+        <td>R3 C2</td>
+      </tr>
+    </table>
+    <table border="1px" weidth="300px" height="100px">
+      <caption>
+        Tabla irregular
+      </caption>
+      <tr>
+        <td colspan="3">Al</td>
+        <td>bravo</td>
+        <td rowspan="2">Charlie</td>
+      </tr>
+      <tr>
+        <td>delta</td>
+        <td>echo</td>
+        <td>foxtrop</td>
+        <td>golf</td>
+      </tr>
+      <tr>
+        <td>Hotel</td>
+        <td colspan="3" rowspan="2" align="center">India</td>
+        <td>Juliet</td>
+      </tr>
+      <tr>
+        <td>Icilo</td>
+        <td>Lima</td>
+      </tr>
+      <tr>
+        <td>Mike</td>
+        <td>November</td>
+        <td>Oscar</td>
+        <td>papa</td>
+        <td>quebec</td>
+      </tr>
+    </table>
+  </body>
+</html>
