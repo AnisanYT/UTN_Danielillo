@@ -1,0 +1,37 @@
+*{
+    background-color: aquamarine;
+    margin: 0;
+}
+/*agrupamiento*/
+.div1, .div2, .div3, .div4 {
+    height: 200px;
+    border: 1px solid salmon;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+
+.div1, .div2 {
+    display: inline-block;
+}
+.div1{
+    background-image: url(../img/manatii.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+}
+.div2{
+    background-color: violet;
+    width: 84%;
+}
+.div3{
+    background-color: yellowgreen;
+    width: 100%;
+}
+.div4 {
+    background-color: teal;
+    width: 100%;
+}

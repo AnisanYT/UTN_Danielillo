@@ -1,0 +1,32 @@
+.div1, .div2, .div3, .div4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;    
+}
+
+.div1 {
+    background-color: tan;
+    z-index: 1;
+}
+
+.div2{
+    background-color: chocolate;
+    position: relative;
+    top: 2px;
+    left: 500px;
+}
+
+.div3{
+    background-color: coral;
+    position: absolute;
+    top: 150px !important;
+    left: 150px; 
+    
+}
+
+.div4{
+    position: fixed;
+    top: 300px;
+    background-color: tomato;
+}
+
