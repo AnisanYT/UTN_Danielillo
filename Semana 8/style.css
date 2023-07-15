@@ -60,3 +60,25 @@ div#menu * {
     background-color: azure;
     color: brown;
 }
+
+div#menu h1:hover{
+    color: violet;
+}
+
+.nombre:focus{
+    background-color: azure;
+    border-radius: 10px;
+    border: 10px solid tomato;
+}
+
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+
+.imagen:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 1px -4px yellow;
+}
