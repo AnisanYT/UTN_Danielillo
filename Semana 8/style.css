@@ -1,0 +1,62 @@
+*{
+    background-color: cadetblue;
+    color: black;
+}
+/*Muy especifico
+
+
+COMBINADOR DESCENDIENTE*/
+.menu .options ul li a{
+ color: orange;   
+}
+/*Solo le aplica a los hijos directos
+ de Page, no a los nietos ni mas 
+ adelante de ellos.
+ 
+ COMBINADOR HIJO*/
+div#page > div {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+/*COMBINADOR HERMANO CONTIGUO
+
+Le aplica el formato al adyacente
+con el simbolo de "+", como en ese 
+ejemplo, le aplica dos hermanos 
+adelante de #page
+*/
+
+div#page + div + div{
+    color: blueviolet;
+}
+
+div.post span + span {
+    color: yellow;
+}
+
+/*COMBINADOR DE UN HERMANO GENRAL
+
+
+Ahora con este simbolo "~" le da 
+formato a todos los hermanos en 
+general despues del primer hermano
+*/
+
+div.post strong ~ strong {
+    color: violet;
+    background-color: azure;
+}
+
+/*
+COMBINADOR UNIVESAL
+
+Aplique el formato a todos los 
+elementos que esten dentro de una 
+clase*/
+
+
+div#menu * {
+    background-color: azure;
+    color: brown;
+}
