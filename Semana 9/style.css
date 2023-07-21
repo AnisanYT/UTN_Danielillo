@@ -1,0 +1,28 @@
+body, html{
+    margin: 2px;
+}
+
+header div {
+    border: 2px solid tomato;
+    border-bottom: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header div ul li a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 30px;
+}
+
+header div ul li a:hover {
+    color: rgb(204, 182, 178);
+}
