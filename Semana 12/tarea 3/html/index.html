@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea 3</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="text-center p-2">Tarea 3</h1>
+    <div class="container">
+      <div class="row mb-3">
+        <label for="valor" class="col-4 col-form-label col-form-label-sm"
+          >Ingrese un valor numerico:
+        </label>
+        <div class="col-4">
+          <input
+            type="text"
+            class="form-control form-control-sm"
+            id="valor"
+            value=""
+            placeholder="Example: 2"
+          />
+        </div>
+        <button type="button" onclick="validar()" class="col-2 btn btn-success">
+          Evaluar
+        </button>
+      </div>
+      <div class="row mb-3">
+        <label for="valor" class="col-4 col-form-label col-form-label-sm"
+          >Ingrese una cadena de texto:
+        </label>
+        <div class="col-4">
+          <input
+            type="text"
+            class="form-control form-control-sm"
+            id="cadena"
+            value=""
+            placeholder="Example: Hola Mundo"
+          />
+        </div>
+        <button
+          type="button"
+          onclick="validaCadena()"
+          class="col-2 btn btn-success"
+        >
+          Evaluar
+        </button>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
