@@ -1,0 +1,58 @@
+.boton, .boton2, .boton3, .boton0, .botonEqual, .boton4{
+    padding: 5px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.812);
+    border: 0.1px solid rgba(0, 0, 0, 0.348);
+}
+
+.boton2 {
+    background-color: #e6e6e6;
+}
+.boton2:hover {
+    background-color: #a19f9f;
+}
+.boton, .boton0 {
+    background-color: #ffffff;
+}
+.boton3 {
+    background-color: #fc7a41;
+    color: #fc7a41;
+    border-bottom: 0.1px solid #fc7a41;
+}
+.boton0 {
+    border-bottom-left-radius: 3px;
+}
+
+.boton0:hover {
+    background-color: #ebe9e9;
+}
+.boton4 {
+    color: #fc7a41;
+    background-color: #fc7a41;
+    border: 0.1px solid #fc7a41;
+    border-right: 0.1px solid rgba(0, 0, 0, 0.348);
+    border-left: 0.1px solid rgba(0, 0, 0, 0.348);
+}
+
+.botonEqual {
+    border-bottom-right-radius: 3px;
+    background-color: #fc7a41;
+    border-top: 0.1px solid #fc7a41;
+}
+
+.botonEqual:hover{
+    color: white;
+}
+.boton:hover {
+    background-color: #ebe9e9;
+}
+.input:focus{
+    outline: none;
+}
+
+.container {
+    margin-top: 10vh;
+    margin: 10px;
+    background-color: #80c8d1;
+}
+
